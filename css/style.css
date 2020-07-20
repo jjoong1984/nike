@@ -8,6 +8,10 @@ a { text-decoration:none; color:inherit;}
 img { border:0; vertical-align:middle; }
 body, html { width:100%; height:100%;
     position:fixed; background:#111 }
+.blind { position: absolute; width:0; height:0;
+    overflow: hidden; font-size:0; line-height:0;
+    text-indent:-99999px;
+ }    
 
 /*    멀티미디어    */
 .vid { width:100%; height:100%;
@@ -81,6 +85,21 @@ h1 img { width:280px;}
     color:#b9fb05;
     background:#222;
 }
+.sns { 
+    position: fixed;
+    top:60px; right:50px;
+}
+.sns li { 
+    display:inline-block;
+    color:#b9fb05;
+    margin-left:20px;
+    font-size:25px;
+    opacity:0.5;
+    transition:all 0.5s
+}
+.sns li:hover { opacity:1;
+    transform:scale(1.4);
 
+}
 
 
