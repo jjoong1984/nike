@@ -168,7 +168,10 @@ h1 img { width:280px;}
 .side .con > p img { opacity:0.3;}
 .side .con > p img:hover { opacity:1;}
 
-.btn { 
-    position: fixed;
-    bottom:0; right:0;
+.side .btn { 
+    position: absolute;
+    bottom:40px; left:180px;
+    color:#b9fb05;
+    font-size:60px;
+    transform:skew(40deg);
 }
